@@ -1,5 +1,5 @@
 cask "md-viewer" do
-  version "0.2.2"
+  version "0.2.3"
   sha256 :no_check
 
   url "https://github.com/gentoobreaking/md-viewer/releases/download/v#{version}/md-viewer-#{version}.dmg"
