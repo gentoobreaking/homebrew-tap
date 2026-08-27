@@ -1,27 +1,27 @@
-# 自動產生：由 tw-quant-mcp release workflow 於 2.1.0 發佈時更新，請勿手改。
+# 自動產生：由 tw-quant-mcp release workflow 於 2.2.0 發佈時更新，請勿手改。
 class TwQuantMcp < Formula
   desc "Taiwan quant market data MCP Server (official sources)"
   homepage "https://github.com/gentoobreaking/tw-quant-mcp"
-  version "2.1.0"
+  version "2.2.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/gentoobreaking/tw-quant-mcp/releases/download/v2.1.0/tw-quant-mcp_v#{version}_darwin_arm64.tar.gz"
-      sha256 "cb714163d948bcaa4960a7c435640f09b102e4c73cadf8480bb912725478ce97"
+      url "https://github.com/gentoobreaking/tw-quant-mcp/releases/download/v2.2.0/tw-quant-mcp_v#{version}_darwin_arm64.tar.gz"
+      sha256 "9d9b728f6d1ae4d45193f355c0df88ba6efccdc055d8f1277481930846674c71"
     else
-      url "https://github.com/gentoobreaking/tw-quant-mcp/releases/download/v2.1.0/tw-quant-mcp_v#{version}_darwin_amd64.tar.gz"
-      sha256 "861e2cc082db2d1621d9d3a3479f151b7c8b8790718e28bd264e4f6e08094bce"
+      url "https://github.com/gentoobreaking/tw-quant-mcp/releases/download/v2.2.0/tw-quant-mcp_v#{version}_darwin_amd64.tar.gz"
+      sha256 "e3c20e3aa69e353c1f893bb19a434c14f652488e9eede9833de5765c1baa5a04"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/gentoobreaking/tw-quant-mcp/releases/download/v2.1.0/tw-quant-mcp_v#{version}_linux_arm64.tar.gz"
-      sha256 "267cdb2b94cbb62e4a3c91f0a8599b8b9a8785cb9861beb46284e3a53892ce03"
+      url "https://github.com/gentoobreaking/tw-quant-mcp/releases/download/v2.2.0/tw-quant-mcp_v#{version}_linux_arm64.tar.gz"
+      sha256 "e4e332f770b1274571ade0fb670e8ac4630e7cb2f312186b5a2cc6300140d5f8"
     else
-      url "https://github.com/gentoobreaking/tw-quant-mcp/releases/download/v2.1.0/tw-quant-mcp_v#{version}_linux_amd64.tar.gz"
-      sha256 "80ed54deb1bd3fcc6f0ad1a9a4809166047c7a83b192b6e640bb7d9a6e76840d"
+      url "https://github.com/gentoobreaking/tw-quant-mcp/releases/download/v2.2.0/tw-quant-mcp_v#{version}_linux_amd64.tar.gz"
+      sha256 "ad6ab583488276ff2fbec7274a2234d6a83a6e43f5e8ca2bb5b6d333fcdde726"
     end
   end
 
